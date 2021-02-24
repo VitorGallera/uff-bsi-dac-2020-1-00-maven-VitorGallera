@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Formulário de HelloWorld (usando o HelloServlet.java)</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-5">Formulário de HelloWorld (usando o HelloServlet.java)</h1>
+                <form class="form mt-2" action="alomundo" method="post" style="margin-left:10px;">
+                    <br><p style="margin-bottom: 10px;">Idioma:<p>
+                    <div class="form-check form-check-inline">
+                        <input type="radio" name="lang" value="pt" checked> Português
+                    </div>
+                    <div class="form-check form-check-inline">
+                     <input class="form-check-input" type="radio" name="lang" value="en"> Inglês
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="lang" value="fr"> Francês
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="lang" value="de"> Alemão
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="lang" value="jp"> Japão
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="lang" value="ch"> China
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="lang" value="ru"> Russia
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="lang" value="tai"> Tailândia
+                    </div>
+                    <div class="row mt-3">
+                        <div class="form-group col-3 mb-2">
+                             <input class="form-control" type="text" placeholder="Your Name" name="nome">
+                         </div>
+                    </div>
+                   
+                    <input class="btn btn-primary" type="submit" value="Cumprimentar"/>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
